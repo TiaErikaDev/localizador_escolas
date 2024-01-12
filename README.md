@@ -9,3 +9,6 @@ A SEDUC disponibiliza uma página no google drive com todos os editais das escol
 Essa aplicação facilita trazendo o mapa da cidade de Fortaleza com marcações de todas as escolas que tem edital aberto no drive.
 
 ![image](https://github.com/TiaErikaDev/localizador_escolas/assets/103070308/6e347720-5f15-477d-889a-7549e619ec62)
+
+página do google drive com os editais:
+![image](https://github.com/TiaErikaDev/localizador_escolas/assets/103070308/28c173aa-3dcb-4241-a036-109eaaa2b908)
