@@ -1,0 +1,24 @@
+name: Atualização Diária
+
+on:
+  schedule:
+    - cron: '0 19 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout do repositório
+      uses: actions/checkout@v2
+
+    - name: Build e execução do Docker
+      run: docker run -v ${{ github.workspace }}/output:/app/output mapa-escolas-docker
+
+    - name: Commit e push das alterações
+      run: |
+        git config --global user.email "tiaerikadev@gmail.com"
+        git config --global user.name "Erika Mayara Pimentel"
+        git add .
+        git commit -m "Atualização diária"
+        git push
