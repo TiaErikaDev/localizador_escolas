@@ -78,5 +78,11 @@ def main():
     mapa = criar_mapa(coordenadas_escolas)
     mapa.save("mapa_escolas_sefor.html")
 
+  #Mudancas no codigo:
+    #1. Adicionado o import do modulo requests
+    #2. Adicionado o import do modulo re
+    #3. Adicionado o import do modulo BeautifulSoup
+    
+
 if __name__ == "__main__":
     main()
